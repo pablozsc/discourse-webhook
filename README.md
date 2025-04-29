@@ -122,13 +122,6 @@ docker-compose down
 
 ---
 
-## 🧑‍💻 Maintainers
-
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Contact: yourname@yourcompany.com or via internal Slack
-
----
-
 ## 🔒 Security Considerations
 
 - `.env` contains sensitive credentials — **do not commit it**.
@@ -136,10 +129,3 @@ docker-compose down
 - Private system messages and admin notifications are **excluded by default**.
 
 ---
-
-## ✅ Project Status
-
-🟢 **Production-ready**  
-🔧 Easily extensible for more event types or custom formatting.
-
-Feel free to fork and adapt as needed for your infrastructure.
