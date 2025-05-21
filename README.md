@@ -34,9 +34,9 @@ docker-compose up --build -d
 The service will run at:
 📍 http://localhost:5000/webhook — ready to receive POST requests from Discourse.
 ## 🔐 Environment Variables
-Variable	Description
-`DISCORD_WEBHOOK_URL`	Your Discord webhook URL
-`DISCOURSE_SECRET`	Secret string used for validating signatures
+	Variable	Description
+	DISCORD_WEBHOOK_URL		Your Discord webhook URL
+	DISCOURSE_SECRET	Secret string used for validating signatures
 
 ## 📁 Project Structure
 
@@ -64,23 +64,6 @@ Variable	Description
 ✅ Sends clean, HTML-free summaries to your Discord channel
 
 🚫 Ignores noisy events such as topic_closed_status_updated
-
-## 🛠 Local Development (without Docker)
-
-If you want to run the webhook locally:
-
-pip install -r requirements.txt
-cp .env.example .env
-python webhook.py
-
-The service will be available at http://0.0.0.0:5000/webhook.
-
-## 🧹 Stopping & Cleanup
-
-To stop the service and remove the container:
-```
-docker-compose down
-```
 
 ## 🛡️ Production Deployment (nginx example)
 
