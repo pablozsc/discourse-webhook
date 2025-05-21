@@ -6,7 +6,7 @@ A lightweight Python-based webhook that listens for events from a Discourse foru
 
 ## Quick Start (via Docker)
 
-### 1. Clone the repository
+1. Clone the repository
 
 ```bash
 git clone https://github.com/your-org/discourse-webhook.git
