@@ -9,7 +9,7 @@ A lightweight Python-based webhook that listens for events from a Discourse foru
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-org/discourse-webhook.git
+git clone https://github.com/pablozsc/discourse-webhook.git
 cd discourse-webhook
 ```
 
