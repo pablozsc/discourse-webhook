@@ -1,10 +1,10 @@
-# 🧩 Discourse → Discord Webhook
+# Discourse → Discord Webhook
 
 A lightweight Python-based webhook that listens for events from a Discourse forum and forwards selected public updates to a Discord channel via a webhook.
 
 ---
 
-## 🚀 Quick Start (via Docker)
+## Quick Start (via Docker)
 
 ### 1. Clone the repository
 
@@ -33,12 +33,12 @@ docker-compose up --build -d
 
 The service will run at:
 📍 http://localhost:5000/webhook — ready to receive POST requests from Discourse.
-## 🔐 Environment Variables
+## Environment Variables
 	Variable		Description
 	DISCORD_WEBHOOK_URL	Your Discord webhook URL
 	DISCOURSE_SECRET	Secret string used for validating signatures
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── webhook.py            # Main Flask webhook server
@@ -51,7 +51,7 @@ The service will run at:
 └── README.md             # You are reading this
 ```
 
-## ⚙️ How It Works
+## How It Works
 
 ✅ Listens for Discourse events such as topic_created and post_created
 
@@ -65,7 +65,7 @@ The service will run at:
 
 🚫 Ignores noisy events such as topic_closed_status_updated
 
-## 🛡️ Production Deployment (nginx example)
+## Production Deployment (nginx example)
 
 To securely expose the webhook endpoint, use nginx as a reverse proxy in front of your app.
 Add this to your nginx configuration:
@@ -100,7 +100,7 @@ Point your Discourse webhook to https://your.domain.com/webhook
 
 Adjust SSL, firewall, and allowed IPs as appropriate for your environment.
 
-## 🔒 Security Considerations
+## Security Considerations
 
 .env contains sensitive credentials — never commit it.
 
@@ -110,7 +110,7 @@ Private messages and admin notifications are excluded by default.
 
 System/bot users are blocked to reduce noise and protect privacy.
 
-## 📦 Requirements
+## Requirements
 
 Python 3.8+
 
@@ -122,7 +122,7 @@ Python 3.8+
 
 	Discord webhook URL
 
-## 💡 Possible Improvements
+## Possible Improvements
 
     Advanced error logging (e.g., to Sentry or email)
 
@@ -132,7 +132,7 @@ Python 3.8+
 
     Rate limiting and access controls
 
-## 🤝 Contributing & Support
+## Contributing & Support
 
 Pull requests and issues are welcome!
 For questions or feedback, please open an Issue or contact the maintainer.
