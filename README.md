@@ -34,7 +34,7 @@ docker-compose up --build -d
 The service will run at:
 📍 http://localhost:5000/webhook — ready to receive POST requests from Discourse.
 ## 🔐 Environment Variables
-	Variable			Description
+	Variable		Description
 	DISCORD_WEBHOOK_URL	Your Discord webhook URL
 	DISCOURSE_SECRET	Secret string used for validating signatures
 
