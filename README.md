@@ -35,7 +35,7 @@ The service will run at:
 📍 http://localhost:5000/webhook — ready to receive POST requests from Discourse.
 ## 🔐 Environment Variables
 	Variable	Description
-	DISCORD_WEBHOOK_URL		Your Discord webhook URL
+	DISCORD_WEBHOOK_URL	Your Discord webhook URL
 	DISCOURSE_SECRET	Secret string used for validating signatures
 
 ## 📁 Project Structure
