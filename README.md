@@ -131,13 +131,13 @@ System/bot users are blocked to reduce noise and protect privacy.
 
 Python 3.8+
 
-Docker (optional but recommended)
+	Docker (optional but recommended)
 
-Flask, requests, python-dotenv (requirements.txt)
+	Flask, requests, python-dotenv (requirements.txt)
 
-Discourse forum with webhook support
+	Discourse forum with webhook support
 
-Discord webhook URL
+	Discord webhook URL
 
 ## 💡 Possible Improvements
 
